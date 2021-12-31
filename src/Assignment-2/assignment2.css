@@ -2,6 +2,141 @@
 
 
 .container, .content {
-width: 100%;
-height: 100%;
-}
+    width: 100%;
+    height: 100%;
+    }
+    .header{
+        background-color: lightgreen;
+        height:500
+        
+    }
+    .logo{
+        padding-left: 50;
+        padding-top: 50;
+        height: 50%;
+        width:50%;
+    }
+    .form-control{
+        position: absolute;
+        right:20px;
+        top:100px;
+        border:1px solid black;
+    }
+    .navigation{
+        position:absolute;
+        top:150px;
+        width:1330px;
+        height:40px;
+        border-style:ridge;
+        text-align:center;
+        background-color: white;
+        right:10px;
+        border:1px solid black;
+    
+    }
+    aside{
+        display:inline-block;
+        
+    }
+    section{
+        display:inline-block;
+        
+        border-style:ridge;
+        top:200px;
+        
+        right:150px;
+        left:160px;
+    }
+    #left-sidebar-menu{
+        
+        position:absolute;
+        border-radius:5px;
+        padding:30px;
+        height: 350px;
+        top: 185px;
+        border-style:ridge;
+        left:10px;
+        border:1px solid black;
+        
+    }
+    #left-sidebar-menu ul li{
+        display:block;
+        margin:20px, 0px;
+        
+    }
+    #right-sidebar-menu{
+        position:absolute;
+        border-radius:5px;
+        padding:30px;
+        height: 350px;
+        top: 185px;
+        border-style:ridge;
+        right:10px;
+        border:1px solid black;
+    
+    }
+    .right-side-bar ul li{
+        display:block;
+        margin:20px 0px;
+        
+    }#main-content-section{
+        position:absolute;
+        border-style:ridge;
+        height:410px;
+        top:200px;
+        border:1px solid black;
+    }
+    
+    .img-post1{
+        position:absolute;
+        left: 30px;
+        top:20px;
+    
+    }
+    .img-post2{
+        position:absolute;
+        
+        left:370px;
+        top:20px;
+        height:150px;
+        width:300px;
+       
+    }
+    .img-post3{
+        position:absolute;
+        left: 710px;
+        top:20px;
+    
+    }
+    .img-post4{
+        position:absolute;
+        left: 30px;
+        top:215px;
+    
+    }
+    .img-post5{
+        position:absolute;
+        
+        left:370px;
+        top:215px;
+    
+    }
+    .img-post6{
+        position:absolute;
+        left: 710px;
+        top:215px;
+        
+    }
+    
+    .post-img{
+        height:150px;
+        width:300px;
+        border:1px solid black;
+    }
+    .footer{
+        position:absolute;
+        border-style:ridge;
+        top:630px;
+        right:10px;
+        border:1px solid black;
+    }
