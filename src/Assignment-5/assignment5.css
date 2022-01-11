@@ -1,7 +1,43 @@
 /* Our CSS file. */
-
+body{
+    background-color: grey;
+}
 
 .container, .content {
 width: 100%;
 height: 100%;
+
+}
+.card{
+    
+    display:flex;
+    margin-top: 80px;
+}
+.section-1{
+    background-color: lightgreen;
+    height:500px;
+    width:400px;
+    text-align: center;
+    margin-left: 20px;;
+    
+    
+}
+.section-2{
+    background-color: white;
+    margin-right: 20px;
+    text-align: center;
+    padding: 100px 120px;
+    
+    
+}
+.btn{
+    background-color: lightgreen;
+    border-radius: 30PX;
+    padding: 10px 10px;
+    color:white;
+    border-color: lightgreen;
+    width: 150px;
+}
+.image{
+    position: relative;
 }
