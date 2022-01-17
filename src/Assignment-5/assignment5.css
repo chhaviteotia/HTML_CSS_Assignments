@@ -1,43 +1,96 @@
 /* Our CSS file. */
-body{
-    background-color: grey;
+*{
+    box-sizing:border-box;
 }
-
-.container, .content {
+html, body, .container, .content {
 width: 100%;
 height: 100%;
 
 }
+body{
+    background-color: #eee;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+.parent{
+    margin-top: 350px;
+    height: 100%;
+}
 .card{
     
     display:flex;
-    margin-top: 80px;
+    flex:0 0 auto;
+    background-color:#fff;
+    max-width:700px;
+    height:35%;
+    margin: 80px 0;
+    
+    border-radius: 5px;
+    box-shadow:1px 5px 7px 0px rgba(0,0,0,0.49);
+    -webkit-box-shadow:1px 5px 7px 0px rgba(0,0,0,0.49);
+    -moz-box-shadow:1px 5px 7px 0px rgba(0,0,0,0.49);
 }
 .section-1{
+    border-radius: 5px 0 0 5px;
+    width:300px;
+    flex:0 0 auto;
+    position:relative;
     background-color: lightgreen;
-    height:500px;
-    width:400px;
-    text-align: center;
-    margin-left: 20px;;
     
-    
+}
+
+.section-1 img{
+    position:absolute;
+    bottom: 3em;
+    left:50%;
+    margin-left:-170px;
+    width:350px;
+
 }
 .section-2{
-    background-color: white;
-    margin-right: 20px;
-    text-align: center;
-    padding: 100px 120px;
-    
-    
+    padding: 3em 4em 2em;
 }
-.btn{
-    background-color: lightgreen;
-    border-radius: 30PX;
-    padding: 10px 10px;
+a{
+    background: #8dc26f;
     color:white;
-    border-color: lightgreen;
-    width: 150px;
+    padding:0 25px;
+    height:50px;
+    font-size:0.8em;
+    letter-spacing:1px;
+    line-height:50px;
+    display:inline-block;
+    text-decoration:none;
+    border-radius:25px;
+    margin-top:1.5em;
+    border:1px solid rgba(0,0,0,0.5);
+
 }
-.image{
-    position: relative;
+a:hover{
+    background-color: #70a751;
+}
+@media only screen and (max-width:790px){
+    body{
+        overflow-x:hidden;
+    }
+    .container{
+        margin: 0 20px;
+    }
+    .card{
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .section-1{
+        width:100%;
+        border-radius: 5px 5px 0 0;
+    }
+    .section-1 img{
+        bottom: 20px;
+        position: relative;
+    }
+    .section-2{
+        padding:2em 2em 1em;
+    }
 }
